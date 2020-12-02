@@ -1,0 +1,69 @@
+baseURL = "https://grbavacigla.tk/"
+languageCode = "en-us"
+title = "Aleksa Ognjanović"
+theme = "hugo.386"
+publishdir = "."
+
+[params]
+    mainpagetitle = "Aleksa Ognjanović"
+    mainpagesubtitle = "Welcome to my personal website!"
+    mainpagedesc = "I am high-school student in Novi Sad, Serbia and open source enthusiast. I contributed to many large projects like Genoo, Pentoo, Lutris and imdbpy... Also I like to solve CTFs. My biggest reverse-engineering achievement is viber. My favourite language is Python. I use Gentoo Linux btw :)"
+
+    copyrightname = "Aleksa Ognjanović"
+    copyrighturl = ""
+    showhugo = true
+    github = "https://github.com/GrbavaCigla"
+    
+    loadfastload = false
+    loadspeedfactor = 2.0
+    loadonepass = false
+
+[params.copyright]
+    name = "Akeksa Ognjanović"
+    suffix = "[HUGO.386](https://gitlab.com/maxlefou/hugo.386)"
+
+[menu]
+  [[menu.main]]
+    identifier = "about" # An unique identifier for the button
+    name = "About"       # A display name for the button
+    url = "/about/"      # The path to the content. It can lead to a single page (like here)
+    weight = 10          # A number to order the buttons in the navbar
+
+  [[menu.main]]
+    identifier = "posts"
+    name = "All posts"
+    url = "/post/"       # The path can lead to a content folder too.
+    weight = 20
+
+[taxonomies]
+category = "categories"
+tag = "tags"
+
+
+[privacy]
+
+  [privacy.vimeo]
+    disabled = false
+    simple = true
+
+  [privacy.twitter]
+    disabled = false
+    enableDNT = true
+    simple = true
+
+  [privacy.instagram]
+    disabled = false
+    simple = true
+
+  [privacy.youtube]
+    disabled = false
+    privacyEnhanced = true
+
+[services]
+
+  [services.instagram]
+    disableInlineCSS = true
+
+  [services.twitter]
+    disableInlineCSS = true
+
