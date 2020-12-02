@@ -1,6 +1,7 @@
 ---
 title: "Compression Comparison"
 author: "Aleksa Ognjanović"
+description: "Here I am going to show differences in various compression algorithms. This is a handy cheatsheet for (de)compressing commands."
 categories: [
     "compression"
 ]
@@ -11,8 +12,6 @@ tags: [
 ]
 date: 2020-12-02T18:40:48+01:00
 ---
-# Compression Comparison
-Here I am going to show differences in various compression algorithms. This is a handy cheatsheet for (de)compressing commands.
 
 ## Compressing
 

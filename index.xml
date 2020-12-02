@@ -13,8 +13,7 @@
       <pubDate>Wed, 02 Dec 2020 18:40:48 +0100</pubDate>
       
       <guid>https://www.grbavacigla.tk/post/compression-comparison/</guid>
-      <description>Compression Comparison Here I am going to show differences in various compression algorithms. This is a handy cheatsheet for (de)compressing commands.
-Compressing Gunzip tar -cjvf test.tar.gz test  c - create archive j - gz v - verbose f - file name of output  Bzip2 tar -czvf test.tar.bz2 test  z - bz2  XZ tar -cJvf test.tar.xz test  J - xz  Zip zip -r test.zip test  r - recursive  7zip 7z a test.</description>
+      <description>Compressing Gunzip tar -cjvf test.tar.gz test  c - create archive j - gz v - verbose f - file name of output  Bzip2 tar -czvf test.tar.bz2 test  z - bz2  XZ tar -cJvf test.tar.xz test  J - xz  Zip zip -r test.zip test  r - recursive  7zip 7z a test.7z test  a - add  Rar rar a test.rar test Decompressing Tar tar -xfv test.</description>
     </item>
     
     <item>
