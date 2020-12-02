@@ -5,6 +5,34 @@
     <link>https://grbavacigla.tk/</link>
     <description>Recent content on Aleksa Ognjanović</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://grbavacigla.tk/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <lastBuildDate>Wed, 02 Dec 2020 18:36:07 +0100</lastBuildDate><atom:link href="https://grbavacigla.tk/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Test</title>
+      <link>https://grbavacigla.tk/post/test/</link>
+      <pubDate>Wed, 02 Dec 2020 18:36:07 +0100</pubDate>
+      
+      <guid>https://grbavacigla.tk/post/test/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://grbavacigla.tk/about/</link>
+      <pubDate>Wed, 02 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://grbavacigla.tk/about/</guid>
+      <description>I am high-school student in Novi Sad, Serbia and open source enthusiast. I contributed to many large projects like Genoo, Pentoo, Lutris and imdbpy&amp;hellip; Also I like to solve CTFs. My biggest reverse-engineering achievement is viber. My favourite language is Python. I use Gentoo Linux btw :)</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://grbavacigla.tk/archives/</link>
+      <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://grbavacigla.tk/archives/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>
