@@ -3,7 +3,7 @@ title: "Compression Comparison"
 author: "Aleksa Ognjanović"
 description: "Here I am going to show differences in various compression algorithms. This is a handy cheatsheet for (de)compressing commands."
 categories: [
-    "compression"
+    "linux"
 ]
 tags: [
     "compression",
