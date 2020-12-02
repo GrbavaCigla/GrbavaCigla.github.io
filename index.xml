@@ -2,36 +2,36 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Aleksa Ognjanović</title>
-    <link>https://grbavacigla.tk/</link>
+    <link>https://www.grbavacigla.tk/</link>
     <description>Recent content on Aleksa Ognjanović</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 02 Dec 2020 18:40:48 +0100</lastBuildDate><atom:link href="https://grbavacigla.tk/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 02 Dec 2020 18:40:48 +0100</lastBuildDate><atom:link href="https://www.grbavacigla.tk/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Compression Comparison</title>
-      <link>https://grbavacigla.tk/post/compression-comparison/</link>
+      <link>https://www.grbavacigla.tk/post/compression-comparison/</link>
       <pubDate>Wed, 02 Dec 2020 18:40:48 +0100</pubDate>
       
-      <guid>https://grbavacigla.tk/post/compression-comparison/</guid>
+      <guid>https://www.grbavacigla.tk/post/compression-comparison/</guid>
       <description>Compression Comparison Here I am going to show differences in various compression algorithms. This is a handy cheatsheet for (de)compressing commands.
 Compressing Gunzip tar -cjvf test.tar.gz test  c - create archive j - gz v - verbose f - file name of output  Bzip2 tar -czvf test.tar.bz2 test  z - bz2  XZ tar -cJvf test.tar.xz test  J - xz  Zip zip -r test.zip test  r - recursive  7zip 7z a test.</description>
     </item>
     
     <item>
       <title>About</title>
-      <link>https://grbavacigla.tk/about/</link>
+      <link>https://www.grbavacigla.tk/about/</link>
       <pubDate>Wed, 02 Dec 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://grbavacigla.tk/about/</guid>
+      <guid>https://www.grbavacigla.tk/about/</guid>
       <description>I am high-school student in Novi Sad, Serbia and open source enthusiast. I contributed to many large projects like Genoo, Pentoo, Lutris and imdbpy&amp;hellip; Also I like to solve CTFs. My biggest reverse-engineering achievement is viber. My favourite language is Python. I use Gentoo Linux btw :)</description>
     </item>
     
     <item>
       <title></title>
-      <link>https://grbavacigla.tk/archives/</link>
+      <link>https://www.grbavacigla.tk/archives/</link>
       <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://grbavacigla.tk/archives/</guid>
+      <guid>https://www.grbavacigla.tk/archives/</guid>
       <description></description>
     </item>
     
