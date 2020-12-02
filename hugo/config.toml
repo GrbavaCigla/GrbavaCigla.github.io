@@ -2,7 +2,7 @@ baseURL = "https://grbavacigla.tk/"
 languageCode = "en-us"
 title = "Aleksa Ognjanović"
 theme = "hugo.386"
-publishdir = "."
+publishdir = ".."
 
 [params]
     mainpagetitle = "Aleksa Ognjanović"
