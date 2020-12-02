@@ -44,29 +44,64 @@
         </div>
     </div>
 </nav><div id="content" class="container">
-<article class="row-fluid navmargin">
-    <header class="page-header">
-        <h1>Tags</h1>
-    </header>
-    
-    
-</article>
-<ul>
 
-
-    <li>
-        <a href="https://grbavacigla.tk/tags/cheatsheet/">2020-12-02 | cheatsheet</a>
-    </li>
-
-    <li>
-        <a href="https://grbavacigla.tk/tags/compression/">2020-12-02 | compression</a>
-    </li>
-
-    <li>
-        <a href="https://grbavacigla.tk/tags/linux/">2020-12-02 | linux</a>
-    </li>
-
+<div class="row-fluid navmargin">
+    <div class="page-header">
+        <h1>Compression Comparison - Wed, Dec 2, 2020</h1>
+    </div>
+    <p class="lead"></p>
+    <h1 id="compression-comparison">Compression Comparison</h1>
+<p>Here I am going to show differences in various compression algorithms. This is a handy cheatsheet for (de)compressing commands.</p>
+<h2 id="compressing">Compressing</h2>
+<h3 id="gunzip">Gunzip</h3>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">tar -cjvf test.tar.gz test
+</code></pre></div><ul>
+<li>c - create archive</li>
+<li>j - gz</li>
+<li>v - verbose</li>
+<li>f - file name of output</li>
 </ul>
+<h3 id="bzip2">Bzip2</h3>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">tar -czvf test.tar.bz2 test
+</code></pre></div><ul>
+<li>z - bz2</li>
+</ul>
+<h3 id="xz">XZ</h3>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">tar -cJvf test.tar.xz test
+</code></pre></div><ul>
+<li>J - xz</li>
+</ul>
+<h3 id="zip">Zip</h3>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">zip -r test.zip test
+</code></pre></div><ul>
+<li>r - recursive</li>
+</ul>
+<h3 id="7zip">7zip</h3>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">7z a test.7z test
+</code></pre></div><ul>
+<li>a - add</li>
+</ul>
+<h3 id="rar">Rar</h3>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">rar a test.rar test
+</code></pre></div><h2 id="decompressing">Decompressing</h2>
+<h3 id="tar">Tar</h3>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">tar -xfv test.tar.*
+</code></pre></div><ul>
+<li>x - extract</li>
+<li>f - file to extract</li>
+<li>v - verbose</li>
+</ul>
+<h3 id="zip-1">Zip</h3>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">unzip test.zip
+</code></pre></div><h3 id="7zip-1">7zip</h3>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">7z x test.7z
+</code></pre></div><h3 id="rar-1">Rar</h3>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">rar x test.rar
+</code></pre></div><p>Source is available at: <a href="https://github.com/GrbavaCigla/CompressionComparison">https://github.com/GrbavaCigla/CompressionComparison</a></p>
+
+    <h4><a href="https://grbavacigla.tk/">Back to Home</a></h4>
+</div>
+
 
         </div><footer class="container">
     <hr class="soften">

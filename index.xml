@@ -6,14 +6,15 @@
     <description>Recent content on Aleksa Ognjanović</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 02 Dec 2020 18:36:07 +0100</lastBuildDate><atom:link href="https://grbavacigla.tk/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 02 Dec 2020 18:40:48 +0100</lastBuildDate><atom:link href="https://grbavacigla.tk/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Test</title>
-      <link>https://grbavacigla.tk/post/test/</link>
-      <pubDate>Wed, 02 Dec 2020 18:36:07 +0100</pubDate>
+      <title>Compression Comparison</title>
+      <link>https://grbavacigla.tk/post/compression-comparison/</link>
+      <pubDate>Wed, 02 Dec 2020 18:40:48 +0100</pubDate>
       
-      <guid>https://grbavacigla.tk/post/test/</guid>
-      <description></description>
+      <guid>https://grbavacigla.tk/post/compression-comparison/</guid>
+      <description>Compression Comparison Here I am going to show differences in various compression algorithms. This is a handy cheatsheet for (de)compressing commands.
+Compressing Gunzip tar -cjvf test.tar.gz test  c - create archive j - gz v - verbose f - file name of output  Bzip2 tar -czvf test.tar.bz2 test  z - bz2  XZ tar -cJvf test.tar.xz test  J - xz  Zip zip -r test.zip test  r - recursive  7zip 7z a test.</description>
     </item>
     
     <item>
