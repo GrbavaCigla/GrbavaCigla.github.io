@@ -1,4 +1,4 @@
 +++
-author = "Aleksa Ognjanović"
+author = "Aleksa Ognjanovic"
 +++
 

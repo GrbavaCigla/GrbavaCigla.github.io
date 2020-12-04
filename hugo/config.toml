@@ -1,15 +1,15 @@
 baseURL = "https://www.grbavacigla.tk/"
 languageCode = "en-us"
-title = "Aleksa Ognjanović"
+title = "Aleksa Ognjanovic"
 theme = "hugo.386"
 publishdir = ".."
 
 [params]
-    mainpagetitle = "Aleksa Ognjanović"
+    mainpagetitle = "Aleksa Ognjanovic"
     mainpagesubtitle = "Welcome to my personal website!"
     mainpagedesc = "I am high-school student in Novi Sad, Serbia and open source enthusiast. I contributed to many large projects like Genoo, Pentoo, Lutris and imdbpy... Also I like to solve CTFs. My biggest reverse-engineering achievement is viber. My favourite language is Python. I use Gentoo Linux btw :)"
 
-    copyrightname = "Aleksa Ognjanović"
+    copyrightname = "Aleksa Ognjanovic"
     copyrighturl = ""
     showhugo = true
     github = "https://github.com/GrbavaCigla"
@@ -19,7 +19,7 @@ publishdir = ".."
     loadonepass = false
 
 [params.copyright]
-    name = "Akeksa Ognjanović"
+    name = "Akeksa Ognjanovic"
     suffix = "[HUGO.386](https://gitlab.com/maxlefou/hugo.386)"
 
 [menu]

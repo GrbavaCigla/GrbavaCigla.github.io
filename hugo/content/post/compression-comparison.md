@@ -1,6 +1,6 @@
 ---
 title: "Compression Comparison"
-author: "Aleksa Ognjanović"
+author: "Aleksa Ognjanovic"
 description: "Here I am going to show differences in various compression algorithms. This is a handy cheatsheet for (de)compressing commands."
 categories: [
     "linux"
